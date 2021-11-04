@@ -1,0 +1,327 @@
+{
+  "paragraphs": [
+    {
+      "text": "%md\n\n# 第1章 可伸展的语言",
+      "user": "admin",
+      "dateUpdated": "2021-11-04 18:19:48.396",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9.0,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch1\u003e第1章 可伸展的语言\u003c/h1\u003e\n\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636021149322_16334647",
+      "id": "paragraph_1636021149322_16334647",
+      "dateCreated": "2021-11-04 18:19:09.322",
+      "dateStarted": "2021-11-04 18:19:48.397",
+      "dateFinished": "2021-11-04 18:19:53.871",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%md\n\n## 1.1 与你一同成长的语言",
+      "user": "admin",
+      "dateUpdated": "2021-11-04 18:20:12.725",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9.0,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003e1.1 与你一同成长的语言\u003c/h2\u003e\n\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636021196386_1163944679",
+      "id": "paragraph_1636021196386_1163944679",
+      "dateCreated": "2021-11-04 18:19:56.386",
+      "dateStarted": "2021-11-04 18:20:12.727",
+      "dateFinished": "2021-11-04 18:20:12.750",
+      "status": "FINISHED"
+    },
+    {
+      "title": "Scala语言中的关系映射",
+      "text": "%spark\n\nvar captial \u003d Map(\n    \"US\" -\u003e \"Washington\",\n    \"France\" -\u003e \"Pairs\",\n    )\ncaptial +\u003d {\"Japan\" -\u003e \"Tokyo\"}\nprintln(captial(\"France\")",
+      "user": "admin",
+      "dateUpdated": "2021-11-04 19:18:12.286",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 6.0,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9.0,
+        "title": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Pairs\n\u001b[1m\u001b[34mcaptial\u001b[0m: \u001b[1m\u001b[32mscala.collection.immutable.Map[String,String]\u001b[0m \u003d Map(US -\u003e Washington, France -\u003e Pairs, Japan -\u003e Tokyo)\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636019905008_1452861206",
+      "id": "paragraph_1636019905008_1452861206",
+      "dateCreated": "2021-11-04 17:58:25.009",
+      "dateStarted": "2021-11-04 18:19:25.756",
+      "dateFinished": "2021-11-04 18:19:27.200",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%python\n\ncaptical \u003d {\n    \"US\": \"Washington\",\n    \"France\": \"Pairs\",\n}\n\ncaptical.update({\"Japan\": \"Japan\"})  # 或者使用 captical[\"Japan\"] \u003d \"Tokyo\"\ncaptical\n\n",
+      "user": "admin",
+      "dateUpdated": "2021-11-04 19:26:38.738",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 6.0,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "{\u0027US\u0027: \u0027Washington\u0027, \u0027France\u0027: \u0027Pairs\u0027, \u0027Japan\u0027: \u0027Tokyo\u0027}"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636024122560_247156484",
+      "id": "paragraph_1636024122560_247156484",
+      "dateCreated": "2021-11-04 19:08:42.564",
+      "dateStarted": "2021-11-04 19:10:26.822",
+      "dateFinished": "2021-11-04 19:10:26.901",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%r\n\ncaptical \u003c- list(\n    \"US\" \u003d \"Washington\",\n    \"France\" \u003d \"Pairs\"\n    )\n\ncaptical$Japan \u003c- \"Tokyo\"\ncaptical\n\n",
+      "user": "admin",
+      "dateUpdated": "2021-11-04 19:29:28.960",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "r",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 6.0,
+        "editorMode": "ace/mode/r",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\n$US\n[1] “Washington”\n\n$France\n[1] “Pairs”\n\n$Japan\n[1] “Tokyo”\n\n\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636024232346_1737083114",
+      "id": "paragraph_1636024232346_1737083114",
+      "dateCreated": "2021-11-04 19:10:32.346",
+      "dateStarted": "2021-11-04 19:17:20.143",
+      "dateFinished": "2021-11-04 19:17:27.387",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%java\n\nimport java.util.HashMap;\nimport java.util.Map;\nimport org.apache.zeppelin.java.JavaInterpreterUtils;\n\npublic class Relations {\n\n    public static void main(String[] args) {\n\n        Map\u003cString, String\u003e captical \u003d new HashMap\u003c\u003e();\n        captical.put(\"US\", \"Washington\");\n        captical.put(\"France\", \"Pairs\");\n        captical.put(\"Japan\", \"Japan\");\n\n        // System.out.println(\n        //        JavaInterpreterUtils.displayTableFromSimpleMap(\"Country\",\"City\", captical)\n        //        );\n        System.out.println(captical);\n    }\n\n}\n",
+      "user": "admin",
+      "dateUpdated": "2021-11-04 19:29:24.358",
+      "progress": 0,
+      "config": {
+        "lineNumbers": false,
+        "editorSetting": {
+          "language": "java",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 6.0,
+        "editorMode": "ace/mode/java",
+        "fontSize": 9.0,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300.0,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "Word": "string",
+                      "Count": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "{Japan\u003dJapan, France\u003dPairs, US\u003dWashington}\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636024670767_59659481",
+      "id": "paragraph_1636024670767_59659481",
+      "dateCreated": "2021-11-04 19:17:50.768",
+      "dateStarted": "2021-11-04 19:29:16.703",
+      "dateFinished": "2021-11-04 19:29:16.921",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%md\n\n- 上面代码为 Scala 的关系映射，很多语言都具备此数据结构（比如 Python、R、Ruby、Java 等），**Scala 在添加新的键值对时，代码的实现可以说非常简单明了**\n- R 里面是没有关系映射（`Dict` 或者 `Map`）的概念的，但是 R 提供了列表方法（`list`）具备这一功能\n- Java 实现关系映射需要一长串的代码，这里就可以看到 Scala 极简的代码风格",
+      "user": "admin",
+      "dateUpdated": "2021-11-04 19:31:42.132",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636020037748_117401881",
+      "id": "paragraph_1636020037748_117401881",
+      "dateCreated": "2021-11-04 18:00:37.749",
+      "status": "READY"
+    }
+  ],
+  "name": "ch01-ScalableLaguage",
+  "id": "2GM4E6ABV",
+  "defaultInterpreterGroup": "spark",
+  "version": "0.10.0",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {},
+  "config": {
+    "isZeppelinNotebookCronEnable": false
+  },
+  "info": {}
+}
